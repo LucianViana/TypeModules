@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\temp\\luciano\\graphqlHotChocolate\\hotchocolate-examples-master\\misc\\TypeModules\\TypeModules.csproj": {}
+  },
+  "projects": {
+    "C:\\temp\\luciano\\graphqlHotChocolate\\hotchocolate-examples-master\\misc\\TypeModules\\TypeModules.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\temp\\luciano\\graphqlHotChocolate\\hotchocolate-examples-master\\misc\\TypeModules\\TypeModules.csproj",
+        "projectName": "TypeModules",
+        "projectPath": "C:\\temp\\luciano\\graphqlHotChocolate\\hotchocolate-examples-master\\misc\\TypeModules\\TypeModules.csproj",
+        "packagesPath": "C:\\Users\\Ivone\\.nuget\\packages\\",
+        "outputPath": "C:\\temp\\luciano\\graphqlHotChocolate\\hotchocolate-examples-master\\misc\\TypeModules\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\temp\\luciano\\graphqlHotChocolate\\hotchocolate-examples-master\\NuGet.Config",
+          "C:\\Users\\Ivone\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "HotChocolate.AspNetCore": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
